@@ -24,6 +24,6 @@ jobs:
       - name: Run Vulture
         run:  vulture formation_indus_ds_avancee/
       - name: Run tests
-        run:  "Trainee should add command to run test"
+        run:  make tests-unitaires
 
 
